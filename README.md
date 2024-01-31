@@ -27,6 +27,15 @@ weather? What % were due to the Airline/Carrier?
 
 - Airlines' Reliability in On-Time Departure: The study aims to identify airlines that demonstrate high and low reliability in terms of on-time departure. Analysis is expected to reveal variations among airlines, potentially influenced by factors such as operational efficiency, fleet management, and scheduling practices. Identifying the most and least reliable airlines will assist passengers and stakeholders in making informed decisions regarding airline choices.
 
+### About the Dataset
+The dataset is made up of 4 tables which are: 
+- flights (fact table): This table shows all the flight details such as the airline, departure time, arrival time, etc.
+- airlines (dimension table): shows the airline names and their IATA codes.
+- airports (dimension table): shows airport details sucu as airport, city, country, etc.
+- cancellation code (dimension table): displays the cancellation description and reason.
+
+This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.org/). The airlines table can be viewed or downloaded [here](airlines.csv),the airports table can also be viewd or downloaded [here](airports.csv), while the cancellation code table can be viewed or downloaded [here](cancellation_codes.csv). The fact table which is the "flights" was too large to be uploaded to github with a size of over 578 MB. Alternatively, you can download the table [here](https://www.dropbox.com/s/uce656ijxu8an66/flights.csv.zip?dl=0).
+
 ### Tools Used
 1. Power Query Editor
     - Was used to:
@@ -45,7 +54,23 @@ weather? What % were due to the Airline/Carrier?
         7. Tooltips, and
         8. Button
 
+
+
+### ETL Process using the Power Query Editor:
+1. Transformed the column types in all the tables to the right column types.
+2. Added a new column "Mont_New" from the "Month" column in flights table to display the names of the month (January - December) using the "If Statement".
+3. Added another column "Day_of_Week_New" from the "Day_of_Week" column in the flights table to display the days of the week (Sunday - Saturday) using the "If Statement".
+4. Created a new column "Merged_Date" which comprises of the the "Year", "Month" and "Day_of_Week" columns merged together to have a complete date view.
+5. Changed the "Merged_Date" type to "Date".
+6. Added another column named "Cancellation_Reason_Details" in the flights table which matches codeS from the "Cancellation_Reason" table with the description in the "Cancellation_Description" cxolumn in the "cancellation code" table to fill the new column.
+7. Re-ordered all the columns in the flights table accordingly.
+8. You can have a peep of our final query editor screenshot [here](Power_Query_Editor.png)
+
+
   ### Data Modelling:
 - IN the model view, i adjusted and re-organized the relationships among the tables to remove and replace the unwanted relationships as seen below:
 - ![](https://github.com/Ugochukwuodinaka/Airline-And-Airport-Flight-Delay-And-Cancellation-Analysis/blob/main/Data_Modelling_image.png)
+- In this data model, the relationship is adjusted to remove and replace unwaranted relationships with the required relationships.
+- The model is a Star Schema.
+- There is 1 fact table which is the "flights" table and 3 dimensions table which are the "airlines", "airports" and the "cancellation code".
   
