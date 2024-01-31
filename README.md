@@ -70,10 +70,19 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
 
 
   ### Data Modelling:
-- IN the model view, i adjusted and re-organized the relationships among the tables to remove and replace the unwanted relationships as seen below:
+- In the model view, i adjusted and re-organized the relationships among the tables to remove and replace the unwanted relationships as seen below:
 ![](https://github.com/Ugochukwuodinaka/Airline-And-Airport-Flight-Delay-And-Cancellation-Analysis/blob/main/Data_Modelling_image.png)
 
 - In this data model, the relationship is adjusted to remove and replace unwaranted relationships with the required relationships.
 - The model is a Star Schema.
 - There is 1 fact table which is the "flights" table and 3 dimensions table which are the "airlines", "airports" and the "cancellation code".
-  
+
+## Visuals in Power BI:
+The report comprises of 2 pages:
+- Report 1
+- Report 2
+![](Airline_%26_Air%5Bport_Flight_Delay_Cancellation_Analysis_Dashboard_1.jpg)
+![](Airline_%26_Air%5Bport_Flight_Delay_Cancellation_Analysis_Dashboard_2.jpg)
+
+## View Power BI Dashboard Report
+You can interact with report [here](https://app.powerbi.com/view?r=eyJrIjoiNzc2ZTdkMDktYWQxOC00ZDBmLWEwM2QtYTEyYjQ2ZTc2ZmJhIiwidCI6IjdlYzI5NjU5LTNjZjItNGYzZi1hYmIzLWE3MjJlZGY3ZmYyZCJ9).This dashboard report displays clearly an interactive visual of this analysis in power BI.
