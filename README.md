@@ -79,12 +79,28 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
 
 ## Visuals in Power BI:
 The report comprises of 2 pages:
-- Report 1
+
+###Report 1
 
 ![](Airline_%26_Air%5Bport_Flight_Delay_Cancellation_Analysis_Dashboard_1.jpg)
 
-- Report 2
+**Analysis:**
+From the analysis, we can comfortably give answers to our problem statement and more:
+- From the analysis, we have 322 Airports.
+- The number of Airlines is 14.
+- A total No of 5,819,079 was scheduled for the year 2015
+- The number of on-time-flight departures is 3,693,461
+- Number of flight delays is 2,125,618
+- The number of cancelled flights is 89,884
+- The percentage of Airline delays is 36.53%
+- The average delay time is 25.27min
+- From the dataset, Wednesdays have the most flight traffic with 872,521 flights, Sundays 865,543, while Thurdays follows with 862,209 flights. The least days with traffic happens to be on fridays with 700,545 flights.
+- At the top of the 5 most reliable airlines is the Southwest Airlines Co. with an on-time-departure of 695,048, followed by Delta Airlines Inc - 593,418, American Airlines Inc - 480,080, Skywest Airlines Inc - 416,781 and Atlantic Southeast Airlines - 402,080.
+- Weather conditions happens to be the major reason for flight cancellation with 48,651 flights cancelled and a share of 54.35% of the time, followed by Airline/Carrier reasons with 48,651 cancelled flights and a share of 28.11% and lastly, National Air System issue causing about 25,262 cancelled flights at 17.52%
 - 
+
+- Report 2
+
 ![](Airline_%26_Air%5Bport_Flight_Delay_Cancellation_Analysis_Dashboard_2.jpg)
 
 ## View Power BI Dashboard Report
