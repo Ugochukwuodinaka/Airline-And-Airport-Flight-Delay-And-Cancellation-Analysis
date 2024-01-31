@@ -47,4 +47,5 @@ weather? What % were due to the Airline/Carrier?
 
   ### Data Modelling:
 - IN the model view, i adjusted and re-organized the relationships among the tables to remove and replace the unwanted relationships as seen below:
-- ![](
+- ![](https://github.com/Ugochukwuodinaka/Airline-And-Airport-Flight-Delay-And-Cancellation-Analysis/blob/main/Data_Modelling_image.png)
+  
