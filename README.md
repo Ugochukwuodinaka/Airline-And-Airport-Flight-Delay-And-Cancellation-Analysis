@@ -98,9 +98,9 @@ From the analysis, we can comfortably give answers to our problem statement and 
 - At the top of the 5 most reliable airlines is the Southwest Airlines Co. with an on-time-departure of 695,048, followed by Delta Airlines Inc - 593,418, American Airlines Inc - 480,080, Skywest Airlines Inc - 416,781 and Atlantic Southeast Airlines - 402,080.
 - At top of the list of Airlines with the least most reliable airlines judging from the least on-time-departures is Virging America with 36,524 on-time-departures, followed by Frontier Airlines Inc. with 55,943, Hawaiian Airlines Inc. with 56,126, Spirit Airlines Inc. with 65,290, and s Inc. with 128,955.
 - Weather conditions happens to be the major reason for flight cancellation with 48,651 flights cancelled and a share of 54.35% of the time, followed by Airline/Carrier reasons with 48,651 cancelled flights and a share of 28.11% and lastly, National Air System issue causing about 25,262 cancelled flights at 17.52%
-- 
+- July happens to be the month with most flights with 520,718 flights, followed by August with 510,336, and March with 504,312. The month with the least flight happens to be February with 429,191. Februaruy being the mosnth with the least flight may be attributed to it being the shortest month in the yearThis may be attributed to 
 
-- Report 2
+### Report 2
 
 ![](AIRLINE%20AND%20AIRPORT%20FLIGHT%20DELAY%20AND%20CANCELLATION%20ANALYSIS%201.jpg)
 
