@@ -96,6 +96,7 @@ From the analysis, we can comfortably give answers to our problem statement and 
 - The average delay time is 25.27min
 - From the dataset, Wednesdays have the most flight traffic with 872,521 flights, Sundays 865,543, while Thurdays follows with 862,209 flights. The least days with traffic happens to be on fridays with 700,545 flights.
 - At the top of the 5 most reliable airlines is the Southwest Airlines Co. with an on-time-departure of 695,048, followed by Delta Airlines Inc - 593,418, American Airlines Inc - 480,080, Skywest Airlines Inc - 416,781 and Atlantic Southeast Airlines - 402,080.
+- At top of the list of Airlines with the least most reliable airlines judging from the least on-time-departures is Virging America with 36,524 on-time-departures, followed by Frontier Airlines Inc. with 55,943, Hawaiian Airlines Inc. with 56,126, Spirit Airlines Inc. with 65,290, and s Inc. with 128,955.
 - Weather conditions happens to be the major reason for flight cancellation with 48,651 flights cancelled and a share of 54.35% of the time, followed by Airline/Carrier reasons with 48,651 cancelled flights and a share of 28.11% and lastly, National Air System issue causing about 25,262 cancelled flights at 17.52%
 - 
 
