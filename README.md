@@ -82,7 +82,7 @@ The report comprises of 2 pages:
 
 ### Report 1
 
-![](Airline_%26_Air%5Bport_Flight_Delay_Cancellation_Analysis_Dashboard_1.jpg)
+![](AIRLINE%20AND%20AIRPORT%20FLIGHT%20DELAY%20AND%20CANCELLATION%20ANALYSIS%201.jpg)
 
 **Analysis:**
 From the analysis, we can comfortably give answers to our problem statement and more:
@@ -102,7 +102,7 @@ From the analysis, we can comfortably give answers to our problem statement and 
 
 - Report 2
 
-![](Airline_%26_Air%5Bport_Flight_Delay_Cancellation_Analysis_Dashboard_2.jpg)
+![](AIRLINE%20AND%20AIRPORT%20FLIGHT%20DELAY%20AND%20CANCELLATION%20ANALYSIS%201.jpg)
 
 ## View Power BI Dashboard Report
 You can interact with report [here](https://app.powerbi.com/view?r=eyJrIjoiNzc2ZTdkMDktYWQxOC00ZDBmLWEwM2QtYTEyYjQ2ZTc2ZmJhIiwidCI6IjdlYzI5NjU5LTNjZjItNGYzZi1hYmIzLWE3MjJlZGY3ZmYyZCJ9).This dashboard report displays clearly an interactive visual of this analysis in power BI.
