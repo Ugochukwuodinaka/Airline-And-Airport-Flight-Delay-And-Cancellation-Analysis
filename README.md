@@ -65,12 +65,14 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
 6. Added another column named "Cancellation_Reason_Details" in the flights table which matches codeS from the "Cancellation_Reason" table with the description in the "Cancellation_Description" cxolumn in the "cancellation code" table to fill the new column.
 7. Re-ordered all the columns in the flights table accordingly.
 8. You can have a peep of our final query editor screenshot below:
-9. ![](Power_Query_Editor.png)
+
+![](Power_Query_Editor.png)
 
 
   ### Data Modelling:
 - IN the model view, i adjusted and re-organized the relationships among the tables to remove and replace the unwanted relationships as seen below:
 ![](https://github.com/Ugochukwuodinaka/Airline-And-Airport-Flight-Delay-And-Cancellation-Analysis/blob/main/Data_Modelling_image.png)
+
 - In this data model, the relationship is adjusted to remove and replace unwaranted relationships with the required relationships.
 - The model is a Star Schema.
 - There is 1 fact table which is the "flights" table and 3 dimensions table which are the "airlines", "airports" and the "cancellation code".
