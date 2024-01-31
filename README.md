@@ -80,8 +80,11 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
 ## Visuals in Power BI:
 The report comprises of 2 pages:
 - Report 1
-- Report 2
+
 ![](Airline_%26_Air%5Bport_Flight_Delay_Cancellation_Analysis_Dashboard_1.jpg)
+
+- Report 2
+- 
 ![](Airline_%26_Air%5Bport_Flight_Delay_Cancellation_Analysis_Dashboard_2.jpg)
 
 ## View Power BI Dashboard Report
