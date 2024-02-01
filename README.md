@@ -106,7 +106,15 @@ From the analysis, we can comfortably give answers to our problem statement and 
 
 ![](Airline_%26_Airport_Flight_Delays_%26_Cancellation_Analysis_Dashboard_2.jpg)
 
-- Chicago O'Hare International Airport tops the list of the Airports with most cancelled flight with a figure of 8,548, followed by Dallas/Fort Worth International Airpot with 6,254 and LaGuardia Airport (Marine Air Terminal) with 4,531 cancelled flights.
+- Chicago O'Hare International Airport tops the list of the Airports with most cancelled flight with a figure of 8,548, followed by Dallas/Fort Worth International Airpot with 6,254 and LaGuardia Airport (Marine Air Terminal) with 4,531 cancelled flights. Weather vulnerability of some of this airports, traffic congestion as a result of busier airports, and operational/infrastructural challenges are the most likely reasons for these high flight cancellation occurences.
+- For the top 6 Airports with most flight delays, Hartfield Jackson Atlanta International Airport comes top with 121,706 flight delays, followed by Chicago O'Hare International Airport with - 96,475, Denver International Airport - 89,290, Los Angeles International Airport - 81,954, and George Bush International Airport - 61,360. Similar to the reasons for flights cancellation, flight delays also occurs because of adverse weather conditions, traffic congestions, issues arzing from airline operation, and security procedures.
+- Southwest Airlines Co. tops the 6 Airlines with most flight delay time at 13,186,520, followed by United Airlines Inc. at 7,355,348, Delta Airlines Inc. - 6,427,294, American Airlines Inc. - 6,369,435, Atlanta Southwest Airlines Inc. - 4,857,338, and SkyWest Airlines Inc. - 4,517,510. The reasons for these delay times may be attributed to a lack of operational efficiency, a lack of fleet reliability, air traffic control, weather conditions and other factors.
 - 
+
+
+
+
+
+
 ## View Power BI Dashboard Report
 You can interact with report [here](https://app.powerbi.com/view?r=eyJrIjoiNzc2ZTdkMDktYWQxOC00ZDBmLWEwM2QtYTEyYjQ2ZTc2ZmJhIiwidCI6IjdlYzI5NjU5LTNjZjItNGYzZi1hYmIzLWE3MjJlZGY3ZmYyZCJ9).This dashboard report displays clearly an interactive visual of this analysis in power BI.
