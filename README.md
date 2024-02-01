@@ -3,7 +3,7 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
-- [About Dataset](#about-dataset)
+- [About The Dataset](#about-the-dataset)
 - [Tools Used](#tools-used)
 - [ETL Process using the Power Query Editor](#etl-process-using-the-power-query-editor)
 - [Visuals in Power BI:](#visuals-in-power-bi)
@@ -36,7 +36,7 @@ weather? What % were due to the Airline/Carrier?
 
 - Airlines' Reliability in On-Time Departure: The study aims to identify airlines that demonstrate high and low reliability in terms of on-time departure. Analysis is expected to reveal variations among airlines, potentially influenced by factors such as operational efficiency, fleet management, and scheduling practices. Identifying the most and least reliable airlines will assist passengers and stakeholders in making informed decisions regarding airline choices.
 
-### About the Dataset
+### About The Dataset
 The dataset is made up of 4 tables which are: 
 - flights (fact table): This table shows all the flight details such as the airline, departure time, arrival time, etc.
 - airlines (dimension table): shows the airline names and their IATA codes.
