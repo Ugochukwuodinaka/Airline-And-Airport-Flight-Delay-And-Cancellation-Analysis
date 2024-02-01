@@ -82,7 +82,7 @@ The report comprises of 2 pages:
 
 ### Report 1
 
-![](AIRLINE%20AND%20AIRPORT%20FLIGHT%20DELAY%20AND%20CANCELLATION%20ANALYSIS%201.jpg)
+![](Airline_%26_Airport_Flight_Delays_%26_Cancellation_Analysis_Dashboard_1.jpg)
 
 **Analysis:**
 From the analysis, we can comfortably give answers to our problem statement and more:
@@ -104,7 +104,7 @@ From the analysis, we can comfortably give answers to our problem statement and 
   
 ### Report 2
 
-![](AIRLINE%20AND%20AIRPORT%20FLIGHT%20DELAY%20AND%20CANCELLATION%20ANALYSIS%202.jpg)
+![](Airline_%26_Airport_Flight_Delays_%26_Cancellation_Analysis_Dashboard_2.jpg)
 
 - Chicago O'Hare International Airport tops the list of the Airports with most cancelled flight with a figure of 8,548, followed by Dallas/Fort Worth International Airpot with 6,254 and LaGuardia Airport (Marine Air Terminal) with 4,531 cancelled flights.
 - 
