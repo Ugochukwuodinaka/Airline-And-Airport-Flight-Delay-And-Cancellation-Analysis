@@ -82,7 +82,7 @@ The report comprises of 2 pages:
 
 ### Report 1
 
-![](AIRLINE%20AND%20AIRPORT%20FLIGHT%20DELAY%20AND%20CANCELLATION%20ANALYSIS%201.jpg)
+![](AIRLINE%20AND%20AIRPORT%20FLIGHT%20DELAY%20AND%20CANCELLATION%20ANALYSIS%202.jpg)
 
 **Analysis:**
 From the analysis, we can comfortably give answers to our problem statement and more:
