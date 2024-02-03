@@ -69,8 +69,8 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
 
 ### ETL Process using the Power Query Editor:
 1. Transformed the column types in all the tables to the right column types.
-2. Added a new column "Mont_New" from the "Month" column in **flights** table to display the names of the month (January - December) using the "If Statement".
-3. Added another column "Day_of_Week_New" from the "Day_of_Week" column in the **flights** table to display the days of the week (Sunday - Saturday) using the "If Statement".
+2. Added a new column "Mont_New" from the "Month" column in **flights** table to display the names of the month (January - December) using the "If function".
+3. Added another column "Day_of_Week_New" from the "Day_of_Week" column in the **flights** table to display the days of the week (Sunday - Saturday) using the "If function".
 4. Created a new column "Merged_Date" in the **flight** table which comprises of the the "Year", "Month" and "Day_of_Week" columns merged together to have a complete date view.
 5. Changed the "Merged_Date" type to "Date".
 6. Added another column named "Cancellation_Reason_Details" in the **flights** table which matches codes from the "Cancellation_Reason" table with the description in the "Cancellation_Description" column of the "cancellation code" table to fill the new column.
