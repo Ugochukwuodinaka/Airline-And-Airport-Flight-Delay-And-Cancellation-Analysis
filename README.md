@@ -14,7 +14,9 @@
 ### Introduction:
 This is a power BI project on "Airline and Airport Flight Delay and Cancellation Analysis". The information released for this analysis shows records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times
 
-### Problem Statement
+### Problem Statement:
+In 2015, the airline industry faced significant challenges related to flight delays and cancellations, resulting in operational disruptions, financial losses, and passenger inconvenience. Despite advances in technology and operational practices, understanding the root causes and mitigating the impact of these disruptions remains a critical concern for airlines, airports, passengers, and regulatory authorities. This analysis seeks to investigate the frequency, distribution, and underlying factors contributing to flight delays and cancellations within the airline industry during the year 2015, with the objective of identifying actionable recommendations to improve operational efficiency, enhance passenger experience, and ensure the safety and reliability of air travel. The study seeks to address the following research questions:
+
 - How does the overall flight volume vary by month? By day of week?
 - What percentage of flights experienced a departure delay in 2015? Among 
 those flights, what was the average delay time, in minutes?
