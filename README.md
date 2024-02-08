@@ -40,10 +40,10 @@ weather? What % were due to the Airline/Carrier?
 
 ### About The Dataset
 The dataset is made up of 4 tables which are in .csv file format and they are: 
-- flights (fact table): This table shows all the flight details such as the airline, departure time, arrival time, etc.
-- airlines (dimension table): shows the airline names and their IATA codes.
-- airports (dimension table): shows airport details sucu as airport, city, country, etc.
-- cancellation code (dimension table): displays the cancellation description and reason.
+- __flights (fact table):__ This table shows all the flight details such as the airline, departure time, arrival time, etc.
+- __airlines (dimension table):__ shows the airline names and their IATA codes.
+- __airports (dimension table):__ shows airport details sucu as airport, city, country, etc.
+- __cancellation code (dimension table):__ displays the cancellation description and reason.
 
 This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.org/). The airlines table can be viewed or downloaded [here](Data/airlines.csv),the airports table can also be viewd or downloaded [here](Data/airports.csv), while the cancellation code table can be viewed or downloaded [here](Data/cancellation_codes.csv). The fact table which is the "flights" was too large to be uploaded to github with a size of over 578 MB. Alternatively, you can download the table [here](https://www.dropbox.com/s/uce656ijxu8an66/flights.csv.zip?dl=0).
 
@@ -68,18 +68,18 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
 
 ### ETL Process using the Power Query Editor:
 1. Transformed the column types in all the tables to the right column types.
-2. Added a new column "Mont_New" from the "Month" column in **flights** table to display the names of the month (January - December) using the "If function".
-3. Added another column "Day_of_Week_New" from the "Day_of_Week" column in the **flights** table to display the days of the week (Sunday - Saturday) using the "If function".
-4. Created a new column "Merged_Date" in the **flight** table which comprises of the the "Year", "Month" and "Day_of_Week" columns merged together to have a complete date view.
-5. Changed the "Merged_Date" type to "Date".
-6. Added another column named "Cancellation_Reason_Details" in the **flights** table which matches codes from the "Cancellation_Reason" table with the description in the "Cancellation_Description" column of the "cancellation code" table to fill the new column.
-7. Re-ordered all the columns in the **flights** table accordingly.
+2. Added a new column __"Mont_New"__ from the __"Month"__ column in __flights__ table to display the names of the month (January - December) using the "If function".
+3. Added another column __"Day_of_Week_New"__ from the __"Day_of_Week"__ column in the __flights__ table to display the days of the week (Sunday - Saturday) using the "If function".
+4. Created a new column __"Merged_Date"__ in the __flight__ table which comprises of the the __"Year"__, __"Month"__ and __"Day_of_Week"__ columns merged together to have a complete date view.
+5. Changed the __"Merged_Date"__ type to "Date".
+6. Added another column named __"Cancellation_Reason_Details"__ in the __flights__ table which matches codes from the __"Cancellation_Reason"__ table with the description in the __"Cancellation_Description"__ column of the __"cancellation code"__ table to fill the new column.
+7. Re-ordered all the columns in the __flights__ table accordingly.
 8. You can have a peep of our final query editor screenshot below:
 
 ![](images/Power_Query_Editor.png)
 
 
-  ### Data Modelling:
+### Data Modelling:
 - In the model view, i adjusted and re-organized the relationships among the tables to remove and replace the unwanted relationships as seen below:
 ![](images/Data_Modelling_image.png)
 
@@ -126,20 +126,20 @@ From the analysis, we can comfortably give answers to our problem statement and 
 You can interact with this report [here](https://app.powerbi.com/view?r=eyJrIjoiNzc2ZTdkMDktYWQxOC00ZDBmLWEwM2QtYTEyYjQ2ZTc2ZmJhIiwidCI6IjdlYzI5NjU5LTNjZjItNGYzZi1hYmIzLWE3MjJlZGY3ZmYyZCJ9).This dashboard report displays clearly an interactive visual of this analysis in power BI.
 
 ## Recommendations Towards Mitigating The Issues of Flight Delays and Cancellations:
-- Improving Weather Forecasting and Preparedness: Enhance collaboration between airlines, airports, and meteorological agencies to improve weather forecasting accuracy and early warning systems. Implement proactive measures such as de-icing procedures, snow removal equipment, and contingency plans to mitigate the impact of adverse weather conditions on flight operations.
+- __Improving Weather Forecasting and Preparedness:__ Enhance collaboration between airlines, airports, and meteorological agencies to improve weather forecasting accuracy and early warning systems. Implement proactive measures such as de-icing procedures, snow removal equipment, and contingency plans to mitigate the impact of adverse weather conditions on flight operations.
 
-- Investing in Airport Infrastructure: Upgrade and expand airport infrastructure to enhance capacity, efficiency, and resilience to weather-related disruptions. Invest in runway upgrades, taxiway expansions, and terminal renovations to minimize congestion and facilitate smoother aircraft movements during peak periods.
+- __Investing in Airport Infrastructure:__ Upgrade and expand airport infrastructure to enhance capacity, efficiency, and resilience to weather-related disruptions. Invest in runway upgrades, taxiway expansions, and terminal renovations to minimize congestion and facilitate smoother aircraft movements during peak periods.
 
-- Enhancing Air Traffic Management: Modernize air traffic control systems and procedures to optimize airspace utilization, reduce congestion, and improve the flow of air traffic. Implement advanced technologies such as NextGen systems, satellite-based navigation, and collaborative decision-making tools to enhance safety and efficiency in the national airspace system.
+- __Enhancing Air Traffic Management:__ Modernize air traffic control systems and procedures to optimize airspace utilization, reduce congestion, and improve the flow of air traffic. Implement advanced technologies such as NextGen systems, satellite-based navigation, and collaborative decision-making tools to enhance safety and efficiency in the national airspace system.
 
-- Implementing Operational Best Practices: Develop and implement operational best practices for airlines, including effective fleet management, crew scheduling optimization, and contingency planning for maintenance and logistical disruptions. Emphasize proactive maintenance programs, efficient turnaround processes, and robust communication channels to minimize operational disruptions and maximize on-time performance.
+- __Implementing Operational Best Practices:__ Develop and implement operational best practices for airlines, including effective fleet management, crew scheduling optimization, and contingency planning for maintenance and logistical disruptions. Emphasize proactive maintenance programs, efficient turnaround processes, and robust communication channels to minimize operational disruptions and maximize on-time performance.
 
-- Enhancing Customer Communication and Support: Improve customer communication and support mechanisms to keep passengers informed about flight delays, cancellations, and alternative travel options. Implement robust passenger assistance programs, flexible rebooking policies, and proactive notification systems to minimize inconvenience and provide timely updates to affected travelers.
+- __Enhancing Customer Communication and Support:__ Improve customer communication and support mechanisms to keep passengers informed about flight delays, cancellations, and alternative travel options. Implement robust passenger assistance programs, flexible rebooking policies, and proactive notification systems to minimize inconvenience and provide timely updates to affected travelers.
 
-- Strengthening Regulatory Oversight: Enhance regulatory oversight and enforcement mechanisms to ensure compliance with safety standards, operational guidelines, and passenger rights regulations. Collaborate with industry stakeholders to develop and implement regulatory reforms aimed at improving transparency, accountability, and reliability in flight operations.
+- __Strengthening Regulatory Oversight:__ Enhance regulatory oversight and enforcement mechanisms to ensure compliance with safety standards, operational guidelines, and passenger rights regulations. Collaborate with industry stakeholders to develop and implement regulatory reforms aimed at improving transparency, accountability, and reliability in flight operations.
 
-- Promoting Collaborative Partnerships: Foster collaboration and partnerships among airlines, airports, air traffic control authorities, government agencies, and industry stakeholders to address systemic issues and implement holistic solutions. Establish industry-wide task forces, working groups, and forums to facilitate knowledge sharing, best practice dissemination, and collective problem-solving efforts.
+- __Promoting Collaborative Partnerships:__ Foster collaboration and partnerships among airlines, airports, air traffic control authorities, government agencies, and industry stakeholders to address systemic issues and implement holistic solutions. Establish industry-wide task forces, working groups, and forums to facilitate knowledge sharing, best practice dissemination, and collective problem-solving efforts.
 
-- Investing in Training and Development: Invest in training and development programs for aviation professionals, including pilots, air traffic controllers, maintenance technicians, and ground staff. Emphasize continuous learning, skill development, and crisis management training to enhance operational resilience and decision-making capabilities in handling flight delays and cancellations.
+- __Investing in Training and Development:__ Invest in training and development programs for aviation professionals, including pilots, air traffic controllers, maintenance technicians, and ground staff. Emphasize continuous learning, skill development, and crisis management training to enhance operational resilience and decision-making capabilities in handling flight delays and cancellations.
 
 By implementing these recommendations, airlines, airports, regulatory authorities, and industry stakeholders can work together to address the challenges of flight delays and cancellations, improve operational efficiency, enhance passenger experience, and ensure the safety and reliability of air travel.
