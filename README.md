@@ -1,5 +1,5 @@
 # Airline-And-Airport-Flight-Delay-And-Cancellation-Analysis
-![](Airline_Airport_Traffic_Delays_and_Cancellation_image.jpg)
+![](images/Airline_Airport_Traffic_Delays_and_Cancellation_image.jpg)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -45,7 +45,7 @@ The dataset is made up of 4 tables which are in .csv file format and they are:
 - airports (dimension table): shows airport details sucu as airport, city, country, etc.
 - cancellation code (dimension table): displays the cancellation description and reason.
 
-This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.org/). The airlines table can be viewed or downloaded [here](airlines.csv),the airports table can also be viewd or downloaded [here](airports.csv), while the cancellation code table can be viewed or downloaded [here](cancellation_codes.csv). The fact table which is the "flights" was too large to be uploaded to github with a size of over 578 MB. Alternatively, you can download the table [here](https://www.dropbox.com/s/uce656ijxu8an66/flights.csv.zip?dl=0).
+This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.org/). The airlines table can be viewed or downloaded [here](Data/airlines.csv),the airports table can also be viewd or downloaded [here](Data/airports.csv), while the cancellation code table can be viewed or downloaded [here](Data/cancellation_codes.csv). The fact table which is the "flights" was too large to be uploaded to github with a size of over 578 MB. Alternatively, you can download the table [here](https://www.dropbox.com/s/uce656ijxu8an66/flights.csv.zip?dl=0).
 
 ### Tools Used
 1. Power Query Editor
@@ -66,7 +66,6 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
         8. Button
 
 
-
 ### ETL Process using the Power Query Editor:
 1. Transformed the column types in all the tables to the right column types.
 2. Added a new column "Mont_New" from the "Month" column in **flights** table to display the names of the month (January - December) using the "If function".
@@ -77,12 +76,12 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
 7. Re-ordered all the columns in the **flights** table accordingly.
 8. You can have a peep of our final query editor screenshot below:
 
-![](Power_Query_Editor.png)
+![](images/Power_Query_Editor.png)
 
 
   ### Data Modelling:
 - In the model view, i adjusted and re-organized the relationships among the tables to remove and replace the unwanted relationships as seen below:
-![](https://github.com/Ugochukwuodinaka/Airline-And-Airport-Flight-Delay-And-Cancellation-Analysis/blob/main/Data_Modelling_image.png)
+![](images/Data_Modelling_image.png)
 
 - The model is a Star Schema.
 - There is 1 fact table which is the "flights" table and 3 dimensions tables which are the "airlines", "airports" and the "cancellation code".
@@ -92,7 +91,7 @@ The report comprises of 2 pages:
 
 ### Report 1
 
-![](Airline_%26_Airport_Flight_Delays_%26_Cancellation_Analysis_Dashboard_1.jpg)
+![](images/Airline_%26_Airport_Flight_Delays_%26_Cancellation_Analysis_Dashboard_1.jpg)
 
 #### Analysis:
 From the analysis, we can comfortably give answers to our problem statement and more:
@@ -114,7 +113,7 @@ From the analysis, we can comfortably give answers to our problem statement and 
   
 ### Report 2
 
-![](Airline_%26_Airport_Flight_Delays_%26_Cancellation_Analysis_Dashboard_2.jpg)
+![](images/Airline_%26_Airport_Flight_Delays_%26_Cancellation_Analysis_Dashboard_2.jpg)
 
 - Chicago O'Hare International Airport tops the list of Airports with most cancelled flights with a figure of 8,548, followed by Dallas/Fort Worth International Airpot with 6,254 and LaGuardia Airport (Marine Air Terminal) with 4,531 cancelled flights. Weather vulnerability of some of this airports, traffic congestion as a result of busier airports, and operational/infrastructural challenges are the most likely reasons for these high flight cancellation occurences.
 - For the top 6 Airports with most flight delays, Hartfield Jackson Atlanta International Airport comes top with 121,706 flight delays, followed by Chicago O'Hare International Airport with - 96,475, Denver International Airport - 89,290, Los Angeles International Airport - 81,954, and George Bush International Airport - 61,360. Similar to the reasons for flights cancellation, flight delays also occurs because of adverse weather conditions, traffic congestions, issues arising from airline operation, security procedures, and infrastructural constraints.
