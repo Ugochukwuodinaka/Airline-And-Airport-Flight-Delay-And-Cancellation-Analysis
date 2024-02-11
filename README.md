@@ -12,7 +12,7 @@
 
 ## Project Overview
 ### Introduction:
-This is a power BI project on "Airline and Airport Flight Delay and Cancellation Analysis". The information released for this analysis shows records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times
+This is a power BI project on __Airline and Airport Flight Delay and Cancellation Analysis__. The information released for this analysis shows records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times
 
 ### Problem Statement:
 In 2015, the airline industry faced significant challenges related to flight delays and cancellations, resulting in operational disruptions, financial losses, and passenger inconvenience. Despite advances in technology and operational practices, understanding the root causes and mitigating the impact of these disruptions remains a critical concern for airlines, airports, passengers, and regulatory authorities. This analysis seeks to investigate the frequency, distribution, and underlying factors contributing to flight delays and cancellations within the airline industry during the year 2015, with the objective of identifying actionable recommendations to improve operational efficiency, enhance passenger experience, and ensure the safety and reliability of air travel. The study seeks to address the following research questions:
@@ -95,14 +95,14 @@ The report comprises of 2 pages:
 
 #### Analysis:
 From the analysis, we can comfortably give answers to our problem statement and more:
-- From the analysis, we have 322 Airports.
-- The number of Airlines is 14.
-- A total No of 5,819,079 flights was scheduled for the year 2015
-- The number of on-time-flight-departures is 3,693,461
-- Number of flight delays is 2,125,618
-- The number of cancelled flights is 89,884
-- The percentage of Airline delays is 36.53%
-- The average delay time is 25.27min
+- From the analysis, we have __322__ Airports.
+- The number of Airlines is __14.__
+- A total No of __5,819,079__ flights was scheduled for the year 2015.
+- The number of on-time-flight-departures is __3,693,461.__
+- Number of flight delays is __2,125,618.__
+- The number of cancelled flights is __89,884.__
+- The percentage of Airline delays is __36.53%.__
+- The average delay time is __25.27__ minutes.
 - From the dataset, Wednesdays has the most flight traffic with 872,521 flights, Sundays 865,543, while Thurdays follows with 862,209 flights. The least days with traffic happens to be on fridays with 700,545 flights.
 - At the top of the 5 most reliable airlines is the Southwest Airlines Co. with an on-time-departure of 695,048, followed by Delta Airlines Inc. - 593,418, American Airlines Inc. - 480,080, Skywest Airlines Inc. - 416,781, and Atlantic Southeast Airlines - 402,080.
 - At the top of the list of Airlines with the least most reliable airlines and judging from the least on-time-departures, is Virging America with 36,524 on-time-departures, followed by Frontier Airlines Inc. with 55,943, Hawaiian Airlines Inc. with 56,126, Spirit Airlines Inc. with 65,290, and Alaska Airlines Inc. with 128,955.
