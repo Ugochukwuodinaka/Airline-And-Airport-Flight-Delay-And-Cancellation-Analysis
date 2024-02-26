@@ -157,12 +157,12 @@ From the analysis, we can comfortably give answers to our problem statement and 
 - Southwest Airlines Co. tops the 6 Airlines with most flight delay time at 13,186,520, followed by United Airlines Inc. at 7,355,348, Delta Airlines Inc. - 6,427,294, American Airlines Inc. - 6,369,435, Atlanta Southwest Airlines Inc. - 4,857,338, and SkyWest Airlines Inc. - 4,517,510. The reasons for these delay time may be attributed to a lack of operational efficiency, a lack of fleet reliability, air traffic control issue, weather conditions, crew scheduling and availability, and other factors.
 
 
-- <img src="images/Total_No_of_Cancelled_Flights_By_Month.jpg" width="300">
+- <img src="images/Total_No_of_Cancelled_Flights_By_Month.jpg" width="450">
 - **Total Number of Cancelled Flights By Month**
 - For the total number of cancelled flights by month, February tops with 20,517 cancellations, followed by January with 11,982, March - 11,002, June - 9,120, December - 8,003, and down to the least month with most cancelled flights, September with 2,075. The reasons for these cancellation remains same as pointed above, adverse weather conditions, operational challenges, holiday travel, airport infrastructure constraints, air traffic control constraints, and more.
 
 
-- <img src="images/%25_of_Flight_Delays_From_Boston_By_Month.jpg" width="300">
+- <img src="images/%25_of_Flight_Delays_From_Boston_By_Month.jpg" width="450">
 - **Percentage of Flight Delays From Boston By Month**
 - For the percentage of flight delays from Boston by month, February sits at the of the chart with 48.64%, August - 39.89%, July - 39.63%, December - 39.06%, March - 37.43%, down to the month with the least percentage of flight delays from Boston, November with 28.84%. Generally, the reasons for variations in the percentage of flight delays from Boston by month can be said to be multifaceted and may include weather conditions, seasonal travel patterns, airline operations, air traffic control constraints, airport infrastructure, and operational disruptions.
 
