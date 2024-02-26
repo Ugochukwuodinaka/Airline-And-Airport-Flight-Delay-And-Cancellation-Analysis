@@ -148,7 +148,7 @@ From the analysis, we can comfortably give answers to our problem statement and 
 - **Top 6 Airports With Most Cancelled Flights**
 - Chicago O'Hare International Airport tops the list of Airports with most cancelled flights with a figure of 8,548, followed by Dallas/Fort Worth International Airpot with 6,254 and LaGuardia Airport (Marine Air Terminal) with 4,531 cancelled flights. Weather vulnerability of some of this airports, traffic congestion as a result of busier airports, and operational/infrastructural challenges are the most likely reasons for these high flight cancellation occurences.
 
-- <img src="images/Top_6_Airports_With_Most_Flight_Delays.jpgg" width="300">
+- <img src="images/Top_6_Airports_With_Most_Flight_Delays.jpg" width="300">
 - **Top 6 Airports With Most Flight Delays**
 - For the top 6 Airports with most flight delays, Hartfield Jackson Atlanta International Airport comes top with 121,706 flight delays, followed by Chicago O'Hare International Airport with - 96,475, Denver International Airport - 89,290, Los Angeles International Airport - 81,954, and George Bush International Airport - 61,360. Similar to the reasons for flights cancellation, flight delays also occurs because of adverse weather conditions, traffic congestions, issues arising from airline operation, security procedures, and infrastructural constraints.
 
