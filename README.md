@@ -58,7 +58,7 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
 
 
 ### Tools Used
-1. Power Query Editor
+1. MS Sql Server
     - Was used to:
         1. Extract,
         2. Transform, and
@@ -76,17 +76,16 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
         8. Button
 
 
-### ETL Process using the Power Query Editor:
-1. Transformed the column types in all the tables to the right column types.
-2. Added a new column __"Month_New"__ from the __"Month"__ column in __flights__ table to display the names of the month (January - December) using the "If function".
-3. Added another column __"Day_of_Week_New"__ from the __"Day_of_Week"__ column in the __flights__ table to display the days of the week (Sunday - Saturday) using the "If function".
-4. Created a new column __"Merged_Date"__ in the __flight__ table which comprises of the the __"Year"__, __"Month"__ and __"Day_of_Week"__ columns merged together to have a complete date view.
-5. Changed the __"Merged_Date"__ type to "Date".
-6. Added another column named __"Cancellation_Reason_Details"__ in the __flights__ table which matches codes from the __"Cancellation_Reason"__ table with the description in the __"Cancellation_Description"__ column of the __"cancellation code"__ table to fill the new column.
-7. Re-ordered all the columns in the __flights__ table accordingly.
-8. You can have a peep of our final query editor screenshot below:
+### ETL Process using MS Sql Server:
+1. Added a new column __"Month_New"__ from the __"Month"__ column in __flights__ table to display the names of the month (January - December) using the "If function".
+2. Added another column __"Day_of_Week_New"__ from the __"Day_of_Week"__ column in the __flights__ table to display the days of the week (Sunday - Saturday) using the "If function".
+3. Created a new column __"Merged_Date"__ in the __flight__ table which comprises of the the __"Year"__, __"Month"__ and __"Day_of_Week"__ columns merged together to have a complete date view.
+4. Added another column named __"Cancellation_Reason_Details"__ in the __flights__ table which matches codes from the __"Cancellation_Reason"__ table with the description in the __"Cancellation_Description"__ column of the __"cancellation code"__ table to fill the new column.
+5. Transformed the column types in all the tables to the right column types.
+6. Re-ordered all the columns in the __flights__ table accordingly (Done In Power Query).
+7. You can have a peep of our final MS Sql query screenshot below:
 
-![](images/Power_Query_Editor.png)
+![](images/MS_Sql_Server_Screenshot.png)
 
 
 ### Data Modelling:
