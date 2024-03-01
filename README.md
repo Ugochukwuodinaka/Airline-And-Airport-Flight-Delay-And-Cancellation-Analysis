@@ -61,8 +61,9 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
 1. MS Sql Server
     - Was used to:
         1. Extract,
-        2. Transform, and
-        3. Load all the datasets for this analysis.
+        2. Cleaning
+        3. Transform and,
+        4. Load all the datasets for this analysis.
            
 2. Power BI (Was used to create reports and dashboard for this analysis)
     - The following Power BI Features were incorporated:
@@ -85,7 +86,12 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
 6. Re-ordered all the columns in the __flights__ table accordingly (Done In Power Query).
 7. You can have a peep of our final MS Sql query screenshot below:
 
-![](images/MS_Sql_Server_Screenshot.png)
+Sql Query Screenshot                                                                         |                                
+:---------------------------------------------------------------------------------:|
+![](images/MS_Sql_Server_Screenshot.png)   
+
+You can access the full MS Sql Server query [here](Airline_%26_Airport_Flight_Delay_%26_Cancellation_Project.sql)
+
 
 
 ### Data Modelling:
