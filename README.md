@@ -40,7 +40,6 @@ weather? What % were due to the Airline/Carrier?
 
 - __Airlines' Reliability in On-Time Departure:__ The study aims to identify airlines that demonstrate high and low reliability in terms of on-time departure. Analysis is expected to reveal variations among airlines, potentially influenced by factors such as operational efficiency, fleet management, and scheduling practices. Identifying the most and least reliable airlines will assist passengers and stakeholders in making informed decisions regarding airline choices.
 <br />
-<br />
 
 ### About The Dataset
 The dataset is made up of 4 tables which are in .csv file format and they are: 
