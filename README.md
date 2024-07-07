@@ -48,7 +48,7 @@ The dataset is made up of 4 tables which are in .csv file format and they are:
 - __airports (dimension table):__ shows airport details sucu as airport, city, country, etc.
 - __cancellation code (dimension table):__ displays the cancellation description and reason.
 
-This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.org/). The airlines table can be viewed or downloaded [here](Data/airlines.csv),the airports table can also be viewd or downloaded [here](Data/airports.csv), while the cancellation code table can be viewed or downloaded [here](Data/cancellation_codes.csv). The fact table which is the "flights" was too large to be uploaded to github with a size of over 578 MB. Alternatively, you can download the table [here](https://www.dropbox.com/s/uce656ijxu8an66/flights.csv.zip?dl=0).
+This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.org/). The airlines dat can be viewed or downloaded [here](Data/airlines.csv),the airports data can also be viewd or downloaded [here](Data/airports.csv), while the cancellation code data can be viewed or downloaded [here](Data/cancellation_codes.csv). The fact table which is the "flights" was too large to be uploaded to github with a size of over 578 MB. Alternatively, you can download the data [here](https://www.dropbox.com/s/uce656ijxu8an66/flights.csv.zip?dl=0).
 <br />
 <br />
 
