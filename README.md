@@ -14,7 +14,7 @@
 
 ## Project Overview
 ### Introduction:
-This is a power BI project on __Airline and Airport Flight Delay and Cancellation Analysis__. The information released for this analysis shows records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times
+This is a project on __Airline and Airport Flight Delay and Cancellation Analysis__. The information released for this analysis shows records for 5,000,000+ commercial airline flights in 2015, compiled for the U.S. DOT Air Travel Consumer Report. Each record represents a single flight, including the airline name, flight number, origin/destination airport and flight distance, as well as scheduled/actual departure and arrival times
 
 ### Problem Statement:
 In 2015, the airline industry faced significant challenges related to flight delays and cancellations, resulting in operational disruptions, financial losses, and passenger inconvenience. Despite advances in technology and operational practices, understanding the root causes and mitigating the impact of these disruptions remains a critical concern for airlines, airports, passengers, and regulatory authorities. This analysis seeks to investigate the frequency, distribution, and underlying factors contributing to flight delays and cancellations within the airline industry during the year 2015, with the objective of identifying actionable recommendations to improve operational efficiency, enhance passenger experience, and ensure the safety and reliability of air travel. The study seeks to address the following research questions:
@@ -42,13 +42,13 @@ weather? What % were due to the Airline/Carrier?
 <br />
 
 ### About The Dataset
-The dataset is made up of 4 tables which are in .csv file format and they are: 
+The dataset is made up of 4 tables which are in the .csv file format and they are: 
 - __flights (fact table):__ This table shows all the flight details such as the airline, departure time, arrival time, etc.
 - __airlines (dimension table):__ shows the airline names and their IATA codes.
 - __airports (dimension table):__ shows airport details sucu as airport, city, country, etc.
 - __cancellation code (dimension table):__ displays the cancellation description and reason.
 
-This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.org/). The airlines dat can be viewed or downloaded [here](Data/airlines.csv),the airports data can also be viewd or downloaded [here](Data/airports.csv), while the cancellation code data can be viewed or downloaded [here](Data/cancellation_codes.csv). The fact table which is the "flights" was too large to be uploaded to github with a size of over 578 MB. Alternatively, you can download the data [here](https://www.dropbox.com/s/uce656ijxu8an66/flights.csv.zip?dl=0).
+This dataset was provided by [Quantum Analytics](https://www.quantumanalyticsco.org/). The airlines data can be viewed or downloaded [here](Data/airlines.csv), the airports data can also be viewd or downloaded [here](Data/airports.csv), while the cancellation code data can be viewed or downloaded [here](Data/cancellation_codes.csv). The fact table which is the "flights" was too large to be uploaded to github with a size of over 578 MB. Alternatively, you can download the data [here](https://www.dropbox.com/s/uce656ijxu8an66/flights.csv.zip?dl=0).
 <br />
 <br />
 
@@ -62,7 +62,7 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
 <br />
 
 ### Tools Used
-1. MS Sql Server
+1. MS SQL Server
     - Was used to:
         1. Extract,
         2. Cleaning
@@ -81,21 +81,21 @@ This dataset was released by [Quantum Analytics](https://www.quantumanalyticsco.
         8. Button
 <br />
 
-### ETL Process using MS Sql Server:
+### ETL Processes using MS SQL Server:
 1. Added a new column __"Month_New"__ from the __"Month"__ column in __flights__ table to display the names of the month (January - December) using the "If function".
 2. Added another column __"Day_of_Week_New"__ from the __"Day_of_Week"__ column in the __flights__ table to display the days of the week (Sunday - Saturday) using the "If function".
 3. Created a new column __"Merged_Date"__ in the __flight__ table which comprises of the the __"Year"__, __"Month"__ and __"Day_of_Week"__ columns merged together to have a complete date view.
 4. Added another column named __"Cancellation_Reason_Details"__ in the __flights__ table which matches codes from the __"Cancellation_Reason"__ table with the description in the __"Cancellation_Description"__ column of the __"cancellation code"__ table to fill the new column.
 5. Transformed the column types in all the tables to the right column types.
-6. Re-ordered all the columns in the __flights__ table accordingly (Done In Power Query).
-7. You can have a peep of our final MS Sql query screenshot below:
+6. Re-ordered all the columns in the __flights__ table accordingly (done using the Power Query Editor).
+7. You can have a view of our final SQL query screenshot below:
 <br />
 
 Sql Query Screenshot                                                                         |                                
 :---------------------------------------------------------------------------------:|
 ![](images/MS_Sql_Server_Screenshot.png)   
 
-You can preview the full MS Sql Server query [here](Airline_%26_Airport_Flight_Delay_%26_Cancellation_Project.sql)
+You can preview the full MS SQL Server query [here](Airline_%26_Airport_Flight_Delay_%26_Cancellation_Project.sql)
 <br />
 <br />
 
