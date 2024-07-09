@@ -113,9 +113,6 @@ The report comprises of 2 pages
 <br />
 ### Report 1
 ![](images/Airline_%26_Airport_Flight_Delays_%26_Cancellation_Analysis_Dashboard_1.jpg)
-
-### Report 2
-![](images/Airline_%26_Airport_Flight_Delays_%26_Cancellation_Analysis_Dashboard_2.jpg)
 <br />
 <br />
 
@@ -135,42 +132,43 @@ From the analysis, we can comfortably give answers to our problem statement and 
 - <img src="images/Total_No_of_Flights_By_Day.jpg" width="300">
 
 - **Total Number of Flights By Day**
-- From the dataset, Wednesdays has the most flight traffic with 872,521 flights, Sundays 865,543, while Thurdays follows with 862,209 flights. The least days with traffic happens to be on fridays with 700,545 flights.
+- This means that Wednesday has the highest flights, at 872,521, followed by Sunday at 865,543 and Thursday at 862,209. There is a clear trend in this data showing peak travel during these days of the week. Fridays see the fewest flights, coming in at 700,545, stating that maybe travelers avoid flying at the end of the workweek. Airlines could use these patterns to their benefit in terms of scheduling and resource provisioning with a view to matching demand and efficiency of operations.
 <br />
 <br />
 
 - <img src="images/Top_5_Most_Reliable_Airlines.jpg" width="300">
 
 - **Top 5 Most Reliable Airlines**
-- At the top of the 5 most reliable airlines is the Southwest Airlines Co. with an on-time-departure of 695,048, followed by Delta Airlines Inc. - 593,418, American Airlines Inc. - 480,080, Skywest Airlines Inc. - 416,781, and Atlantic Southeast Airlines - 402,080.
+- Southwest Airlines Co. heads the list of the world's most punctual carriers, having raked up 695,048 on-time departures to its credit, clearly establishing the efficiency and reliability of the carrier. With 593,418 on-time departures, Delta Airlines Inc. showed a very good performance at the second position in volume. American Airlines Inc., Skywest Airlines Inc., and Atlantic Southeast Airlines made up the top five with 480,080, 416,781, and 402,080 on-time departures, respectively. That is evident in the high on-time departure rates of these airlines, which prove that they treat punctuality seriously and really care about satisfying their customers, setting benchmark standard practices for the industry.
 <br />
 <br />
 
 - <img src="images/Least_5_Most_Reliable_Airlines.jpg" width="300">
 
 - **Least 5 Most Reliable Airlines**
-- At the top of the list of Airlines with the least most reliable airlines and judging from the least on-time-departures, is Virging America with 36,524 on-time-departures, followed by Frontier Airlines Inc. with 55,943, Hawaiian Airlines Inc. with 56,126, Spirit Airlines Inc. with 65,290, and Alaska Airlines Inc. with 128,955.
+- Virgin America ranks as the least reliable airline in terms of on-time departures. Only 36524 flights depart on time. Frontier Airlines Inc. follows with 55,943 Hawaiian Airlines Inc. with 56,126 Spirit Airlines Inc. with 65,290 and Alaska Airlines Inc. with 128955. These figures indicate significant room for improvement in punctuality. This impacts customer satisfaction and operational efficiency. Addressing the factors contributing to these delays could enhance their reliability and competitive standing in the industry.
 <br />
 <br />
 
 - <img src="images/Total_No_of_Cancelled_Flights_By_Reason.jpg" width="300">
 
 - **Total Number of Cancelled Flights By Reason**
-- Weather conditions happens to be the major reason for flight cancellation with 48,651 flights cancelled and a share of 54.35% of the time, followed by Airline/Carrier reasons with 48,651 cancelled flights and a share of 28.11% and lastly, National Air System issue causing about 25,262 cancelled flights at 17.52%.
+- Weather conditions are the predominant cause of flight cancellations. They account for 54.35% with 48651 flights canceled. This highlights the substantial impact of adverse weather on aviation operations. Airline or carrier-related issues follow with 28.11%. They also resulted in 48,651 cancellations. This indicates significant operational challenges within airlines. 
+National Air System issues contribute to 17.52% of cancellations. They affect 25262 flights. This points to systemic inefficiencies in air traffic control and infrastructure. These insights suggest the need for improved weather forecasting. Operational efficiency must also be enhanced Along with better airspace management. All are essential to reducing cancellations and enhance travel reliability
 <br />
 <br />
 
 - <img src="images/Total_No_of_Flights_By_Month.jpg" width="450">
 
 - **Total Number of Flights By Month**
-- July happens to be the month with most flights traffic with 520,718 flights, followed by August with 510,336, and March with 504,312. The month with the least flight traffic happens to be February with 429,191. February being the month with the least flight may be attributed to it being the shortest month in the year, secondly,february often experiences lower flight traffic compared to other months due to being part of the winter season in many regions. February also typically lacks major holidays or long weekends, unlike other months such as July and August. February may experience a dip in business-related travel compared to other months. July has the most flight traffic because it is a peak travel month in many regions, coinciding with the summer vacation season. Families, students, and individuals often take advantage of the warm weather and extended break periods to travel for leisure, leading to increased demand for flights. July include many holidays and it is a period for summer break when most schoold go on break. July is often filled with events, festivals, and cultural celebrations around the world. While July is primarily associated with leisure travel, it also sees significant business and conference-related travel.
+- July happens to be the month with the most flight traffic with 520,718 flights, followed by August with 510,336, and March with 504,312. The month with the least flight traffic happens to be February with 429,191. February being the month with the least flight may be attributed to it being the shortest month in the year, secondly, February often experiences lower flight traffic compared to other months due to being part of the winter season in many regions. February also typically lacks major holidays or long weekends, unlike other months such as July and August. February may experience a dip in business-related travel compared to other months. July has the most flight traffic because it is a peak travel month in many regions, coinciding with the summer vacation season. Families, students, and individuals often take advantage of the warm weather and extended break periods to travel for leisure, leading to increased demand for flights. July include many holidays and it is a period for summer break when most schoold go on break. July is often filled with events, festivals, and cultural celebrations around the world. While July is primarily associated with leisure travel, it also sees significant business and conference-related travel.
 <br />
 <br />
 
 - <img src="images/%25_of_Fight_Delays_By_Month.jpg" width="450">
 
 - **Percentage of Flight Delays By Month**
-- June has the highest percentage of flight delays with a 42.74%, February - 40.41%, July - 40.26%, December -39.51, down to the 2 months with the least percentage of flight delays, September at 28.52%, followed by October with 29.85%. September and October often experience more favorable weather conditions compared to other months, especially in regions where inclement weather contribute to flight delays. The months of June, July, and December also has the highest percentage of flight delay because these months coincide with peak travel seasons, characterized by increased passenger volumes and higher demand for flights. Some months may experience capacity constraints at airports and airspace due to high demand for travel and limited available slots for aircraft operations. 
+- June has the highest percentage of flight delays with 42.74% February follows with 40.41%. July has 40.26%. December trails at 39.51. Finally, the two months with the lowest percentage of flight delays are September at 28.52% and October at 29.85%. September and October often experience more favorable weather conditions. This is especially true in regions where inclement weather contributes to flight delays. The months of June July and December also have the highest percentage of flight delay because these months coincide with peak travel seasons. These seasons are characterized by increased passenger volumes and higher demand for flights. Some months may experience capacity constraints at airports. Airspace may also become constrained due to high demand for travel and limited available slots for aircraft operations.
 <br />
 <br />
   
@@ -183,34 +181,34 @@ From the analysis, we can comfortably give answers to our problem statement and 
 - <img src="images/Top_6_Airports_With_Most_Cancelled_Flights.jpg" width="300">
 
 - **Top 6 Airports With Most Cancelled Flights**
-- Chicago O'Hare International Airport tops the list of Airports with most cancelled flights with a figure of 8,548, followed by Dallas/Fort Worth International Airpot with 6,254 and LaGuardia Airport (Marine Air Terminal) with 4,531 cancelled flights. Weather vulnerability of some of this airports, traffic congestion as a result of busier airports, and operational/infrastructural challenges are the most likely reasons for these high flight cancellation occurences.
+- Chicago O'Hare International Airport has the highest number of flight cancellations at 8548. It is followed by Dallas/Fort Worth International Airport with 6,254 cancellations. LaGuardia Airport (Marine Air Terminal) has 4531 cancellations. These airports face high cancellation rates because they are vulnerable to adverse weather conditions. They also experience significant traffic congestion from being among the busiest airports. Various operational and infrastructural challenges further contribute to this issue. Addressing these concerns through improved weather forecasting and enhanced traffic management could reduce the frequency of cancellations. Infrastructure upgrades could also improve overall reliability.
 <br />
 <br />
 - <img src="images/Top_6_Airports_With_Most_Flight_Delays.jpg" width="300">
 
 - **Top 6 Airports With Most Flight Delays**
-- For the top 6 Airports with most flight delays, Hartfield Jackson Atlanta International Airport comes top with 121,706 flight delays, followed by Chicago O'Hare International Airport with - 96,475, Denver International Airport - 89,290, Los Angeles International Airport - 81,954, and George Bush International Airport - 61,360. Similar to the reasons for flights cancellation, flight delays also occurs because of adverse weather conditions, traffic congestions, issues arising from airline operation, security procedures, and infrastructural constraints.
+- Hartsfield-Jackson Atlanta International Airport leads the list of airports with the most flight delays, recording 121,706 delays, followed by Chicago O'Hare International Airport with 96,475 delays, Denver International Airport with 89,290 delays, Los Angeles International Airport with 81,954 delays, and George Bush Intercontinental Airport with 61,360 delays. Similar to flight cancellations, these delays are predominantly caused by adverse weather conditions, heavy traffic congestion, airline operational issues, stringent security procedures, and infrastructural constraints. Addressing these challenges through enhanced weather forecasting, better traffic management, operational efficiency improvements, and infrastructure upgrades could significantly reduce the occurrence of flight delays.
 <br />
 <br />
 
 - <img src="images/Top_6_Airlines_With_Most_Delay_Time.jpg" width="300">
 
 - **Top 6 Airlines With Most Delay Time**
-- Southwest Airlines Co. tops the 6 Airlines with most flight delay time at 13,186,520, followed by United Airlines Inc. at 7,355,348, Delta Airlines Inc. - 6,427,294, American Airlines Inc. - 6,369,435, Atlanta Southwest Airlines Inc. - 4,857,338, and SkyWest Airlines Inc. - 4,517,510. The reasons for these delay time may be attributed to a lack of operational efficiency, a lack of fleet reliability, air traffic control issue, weather conditions, crew scheduling and availability, and other factors.
+- Southwest Airlines Co. leads the list of airlines with the most flight delay time accumulating a staggering 13,186520 minutes of delays. This is followed by United Airlines Inc. with 7,355348 minutes. Delta Airlines Inc. with 6,427294 minutes. American Airlines Inc. with 6,369435 minutes. Atlanta Southwest Airlines Inc. with 4,857338 minutes and SkyWest Airlines Inc. with 4,517510 minutes. These extensive delay times can be attributed to factors such as operational inefficiencies, fleet reliability issues air traffic control problems, adverse weather conditions, and challenges in crew scheduling and availability. Addressing these issues through strategic operational improvements. Enhanced fleet maintenance. Better air traffic management and optimized crew scheduling can help reduce delay times and improve overall airline punctuality.
 <br />
 <br />
 
 - <img src="images/Total_No_of_Cancelled_Flights_By_Month.jpg" width="450">
 
 - **Total Number of Cancelled Flights By Month**
-- For the total number of cancelled flights by month, February tops with 20,517 cancellations, followed by January with 11,982, March - 11,002, June - 9,120, December - 8,003, and down to the least month with most cancelled flights, September with 2,075. The reasons for these cancellation remains same as pointed above, adverse weather conditions, operational challenges, holiday travel, airport infrastructure constraints, air traffic control constraints, and more.
+- In terms of monthly flight cancellations, February experiences the highest number. The total is 20,517 cancellations. It is followed by January with 11982, March with 11002, June with 9120 and December with 8,003. September has the fewest cancellations. Totaling 2075. Primary reasons for these cancellations include adverse weather conditions, operational challenges increased holiday travel, airport infrastructure constraints, and air traffic control limitations. These insights underscore the need for airlines and airports to enhance their operational resilience. Improve infrastructure and develop robust contingency plans, particularly during peak travel periods and adverse weather conditions.
 <br />
 <br />
 
 - <img src="images/%25_of_Flight_Delays_From_Boston_By_Month.jpg" width="450">
 
 - **Percentage of Flight Delays From Boston By Month**
-- For the percentage of flight delays from Boston by month, February sits at the of the chart with 48.64%, August - 39.89%, July - 39.63%, December - 39.06%, March - 37.43%, down to the month with the least percentage of flight delays from Boston, November with 28.84%. Generally, the reasons for variations in the percentage of flight delays from Boston by month can be said to be multifaceted and may include weather conditions, seasonal travel patterns, airline operations, air traffic control constraints, airport infrastructure, and operational disruptions.
+- In examining the percentage of flight delays from Boston by month February leads with a 48.64% delay rate. August follows at 39.89%. July stands at 39.63%. December at 39.06%. March at 37.43%. November has the lowest delay percentage at 28.84%. These variations in delay percentages are influenced by multiple factors including adverse weather conditions, seasonal travel patterns airline operational issues, air traffic control constraints, and airport infrastructure limitations. Understanding these factors can help in implementing targeted strategies to mitigate delays and improve punctuality throughout the year.
 <br />
 <br />
 
@@ -221,24 +219,22 @@ You can interact with this report [here](https://app.powerbi.com/view?r=eyJrIjoi
 <br />
 
 ## Recommendations Towards Mitigating The Issues of Flight Delays and Cancellations:
-- __Improving Weather Forecasting and Preparedness:__ Enhance collaboration between airlines, airports, and meteorological agencies to improve weather forecasting accuracy and early warning systems. Implement proactive measures such as de-icing procedures, snow removal equipment, and contingency plans to mitigate the impact of adverse weather conditions on flight operations.
 
-- __Investing in Airport Infrastructure:__ Upgrade and expand airport infrastructure to enhance capacity, efficiency, and resilience to weather-related disruptions. Invest in runway upgrades, taxiway expansions, and terminal renovations to minimize congestion and facilitate smoother aircraft movements during peak periods.
-
-- __Enhancing Air Traffic Management:__ Modernize air traffic control systems and procedures to optimize airspace utilization, reduce congestion, and improve the flow of air traffic. Implement advanced technologies such as NextGen systems, satellite-based navigation, and collaborative decision-making tools to enhance safety and efficiency in the national airspace system.
-
-- __Implementing Operational Best Practices:__ Develop and implement operational best practices for airlines, including effective fleet management, crew scheduling optimization, and contingency planning for maintenance and logistical disruptions. Emphasize proactive maintenance programs, efficient turnaround processes, and robust communication channels to minimize operational disruptions and maximize on-time performance.
-
-- __Enhancing Customer Communication and Support:__ Improve customer communication and support mechanisms to keep passengers informed about flight delays, cancellations, and alternative travel options. Implement robust passenger assistance programs, flexible rebooking policies, and proactive notification systems to minimize inconvenience and provide timely updates to affected travelers.
-
-- __Strengthening Regulatory Oversight:__ Enhance regulatory oversight and enforcement mechanisms to ensure compliance with safety standards, operational guidelines, and passenger rights regulations. Collaborate with industry stakeholders to develop and implement regulatory reforms aimed at improving transparency, accountability, and reliability in flight operations.
 
 - __Promoting Collaborative Partnerships:__ Foster collaboration and partnerships among airlines, airports, air traffic control authorities, government agencies, and industry stakeholders to address systemic issues and implement holistic solutions. Establish industry-wide task forces, working groups, and forums to facilitate knowledge sharing, best practice dissemination, and collective problem-solving efforts.
-
 - __Investing in Training and Development:__ Invest in training and development programs for aviation professionals, including pilots, air traffic controllers, maintenance technicians, and ground staff. Emphasize continuous learning, skill development, and crisis management training to enhance operational resilience and decision-making capabilities in handling flight delays and cancellations.
 
-By implementing these recommendations, airlines, airports, regulatory authorities, and industry stakeholders can work together to address the challenges of flight delays and cancellations, improve operational efficiency, enhance passenger experience, and ensure the safety and reliability of air travel.
+  
+- __Improved weather forecasting and preparedness:__ The tracer of cooperation between airlines, airports, and meteorological agencies will raise the level of weather forecasting accuracy and early warning systems. Implement proactive measures like de-icing procedures, snow removal equipment, and contingency plans that help reduce the impact of adverse weather conditions on flight operations.
+- __Airport Infrastructure Upgrade:__ Upgrade and augment airport infrastructure to enhance capacity efficiency and resilience to weather-related disruptions. Achieved through the upgrading of the runway, expansion of taxiways, and renovation of terminals. These are upgrades that will reduce congestion and hence provide for smoother aircraft movements during peak periods.
+- __Improved Traffic Handling of Airspace:__ Air traffic management systems are to be upgraded in order to fully exploit the potentials of airspace. Thereby, congestion would be reduced and more effective air traffic flow would result. Next Generation Systems, satellite-based navigation, and collaborative decision-making tools partially comprise such technologies that will guarantee increased safety and efficiency within NAS.
+- __Set up and Implement Operational Best Practices for the Airline Industry:__ Using a best-practice operational framework, which shall include—among other initiatives—the optimization of fleet management and crew scheduling. Of importance will be contingency planning in terms of maintenance. With major emphasis on proactive maintenance programs, efficient turnaround processes are a must. Have a robust mechanism for communication. Minimize disruptions. Maximize on-time performance.
+- __Improve the structure of customer communication and support;__ Intimate customers about delays and cancellations. Help passengers with other travel arrangements if needed. Ensure that belligerent passenger help programs are implemented. Flexibility in rebooking policy. Proactive notification systems to minimize inconvenience. Update Travelers on time.
+- __Regulatory Oversight Strenghtening:__ Tighten oversight over the enforcing mechanisms of regulatory policies for enforcement of set safety standards, following operational guidelines in passengers' rights regulations. This is through collaboration with the industry stakeholders to offer developmental reforms in regulation and update regulatory reforms. Improve transparency for accountability and dependability in flight operations.
+- __Promotion of collaborative partnerships:__ Rich collaboration and partnership between airlines, airports, air traffic control authorities, government agencies, and industry stakeholders. Holistic solutions treat systemic issues. Industry-wide task forces created. Working groups established for knowledge sharing and dissemination of best practices, further supporting collective problem-solving efforts.
+- __Training and Development Investment:__ Develop relevant training and development programs for all aviation professionals, from pilots and air traffic controllers as essential front liners to maintenance technicians and ground staff. Such designs should emphasize continuous learning with a focus on skill development. This crisis management training may improve the resilience of the operation. Improve decision-making capability in handling delays and cancellations of flights.
 <br />
 <br />
 
 ## Thank You For Following Through!
+![](images/Thank_You.jpg)
