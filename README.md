@@ -237,4 +237,4 @@ You can interact with this report [here](https://app.powerbi.com/view?r=eyJrIjoi
 <br />
 
 ## Thank You For Following Through!
-![](thank%20you%20Letter.jpg)
+![](images/thank%20you%20Letter.jpg)
