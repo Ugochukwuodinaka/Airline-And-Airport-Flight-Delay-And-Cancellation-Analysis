@@ -158,14 +158,14 @@ National Air System issues contribute to 17.52% of cancellations. They affect 25
 <br />
 <br />
 
-- <img src="images/Total_No_of_Flights_By_Month.jpg" width="450">
+- <img src="images/Total_No_of_Flights_By_Month.jpg" width="500">
 
 - **Total Number of Flights By Month**
 - July happens to be the month with the most flight traffic with 520,718 flights, followed by August with 510,336, and March with 504,312. The month with the least flight traffic happens to be February with 429,191. February being the month with the least flight may be attributed to it being the shortest month in the year, secondly, February often experiences lower flight traffic compared to other months due to being part of the winter season in many regions. February also typically lacks major holidays or long weekends, unlike other months such as July and August. February may experience a dip in business-related travel compared to other months. July has the most flight traffic because it is a peak travel month in many regions, coinciding with the summer vacation season. Families, students, and individuals often take advantage of the warm weather and extended break periods to travel for leisure, leading to increased demand for flights. July include many holidays and it is a period for summer break when most schoold go on break. July is often filled with events, festivals, and cultural celebrations around the world. While July is primarily associated with leisure travel, it also sees significant business and conference-related travel.
 <br />
 <br />
 
-- <img src="images/%25_of_Fight_Delays_By_Month.jpg" width="450">
+- <img src="images/%25_of_Fight_Delays_By_Month.jpg" width="500">
 
 - **Percentage of Flight Delays By Month**
 - June has the highest percentage of flight delays with 42.74% February follows with 40.41%. July has 40.26%. December trails at 39.51. Finally, the two months with the lowest percentage of flight delays are September at 28.52% and October at 29.85%. September and October often experience more favorable weather conditions. This is especially true in regions where inclement weather contributes to flight delays. The months of June July and December also have the highest percentage of flight delay because these months coincide with peak travel seasons. These seasons are characterized by increased passenger volumes and higher demand for flights. Some months may experience capacity constraints at airports. Airspace may also become constrained due to high demand for travel and limited available slots for aircraft operations.
