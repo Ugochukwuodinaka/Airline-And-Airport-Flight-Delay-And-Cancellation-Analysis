@@ -198,14 +198,14 @@ National Air System issues contribute to 17.52% of cancellations. They affect 25
 <br />
 <br />
 
-- <img src="images/Total_No_of_Cancelled_Flights_By_Month.jpg" width="450">
+- <img src="images/Total_No_of_Cancelled_Flights_By_Month.jpg" width="500">
 
 - **Total Number of Cancelled Flights By Month**
 - In terms of monthly flight cancellations, February experiences the highest number. The total is 20,517 cancellations. It is followed by January with 11982, March with 11002, June with 9120 and December with 8,003. September has the fewest cancellations. Totaling 2075. Primary reasons for these cancellations include adverse weather conditions, operational challenges increased holiday travel, airport infrastructure constraints, and air traffic control limitations. These insights underscore the need for airlines and airports to enhance their operational resilience. Improve infrastructure and develop robust contingency plans, particularly during peak travel periods and adverse weather conditions.
 <br />
 <br />
 
-- <img src="images/%25_of_Flight_Delays_From_Boston_By_Month.jpg" width="450">
+- <img src="images/%25_of_Flight_Delays_From_Boston_By_Month.jpg" width="500">
 
 - **Percentage of Flight Delays From Boston By Month**
 - In examining the percentage of flight delays from Boston by month February leads with a 48.64% delay rate. August follows at 39.89%. July stands at 39.63%. December at 39.06%. March at 37.43%. November has the lowest delay percentage at 28.84%. These variations in delay percentages are influenced by multiple factors including adverse weather conditions, seasonal travel patterns airline operational issues, air traffic control constraints, and airport infrastructure limitations. Understanding these factors can help in implementing targeted strategies to mitigate delays and improve punctuality throughout the year.
@@ -237,4 +237,4 @@ You can interact with this report [here](https://app.powerbi.com/view?r=eyJrIjoi
 <br />
 
 ## Thank You For Following Through!
-![](images/thank%20you%20Letter.jpg)
+![](images/hands-holding-words-thank-you.jpg)
