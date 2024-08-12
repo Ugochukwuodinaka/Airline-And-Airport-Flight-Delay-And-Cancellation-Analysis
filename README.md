@@ -64,10 +64,8 @@ This dataset was provided by [Quantum Analytics](https://www.quantumanalyticsco.
 ### Tools Used
 1. MS SQL Server
     - Was used to:
-        1. Extract,
-        2. Cleaning
-        3. Transform and,
-        4. Load all the datasets for this analysis.
+        1. Cleaning
+        3. Transform the dataset for this analysis.
            
 2. Power BI (Was used to create reports and dashboard for this analysis)
     - The following Power BI Features were incorporated:
