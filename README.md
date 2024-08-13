@@ -80,13 +80,15 @@ This dataset was provided by [Quantum Analytics](https://www.quantumanalyticsco.
 <br />
 
 ### Data Cleaning, Transformation and Loading using MS Sql Query:
-1. Added a new column __"Month_New"__ from the __"Month"__ column in __flights__ table to display the names of the month (January - December) using the "If function".
-2. Added another column __"Day_of_Week_New"__ from the __"Day_of_Week"__ column in the __flights__ table to display the days of the week (Sunday - Saturday) using the "If function".
-3. Created a new column __"Merged_Date"__ in the __flight__ table which comprises of the the __"Year"__, __"Month"__ and __"Day_of_Week"__ columns merged together to have a complete date view.
-4. Added another column named __"Cancellation_Reason_Details"__ in the __flights__ table which matches codes from the __"Cancellation_Reason"__ table with the description in the __"Cancellation_Description"__ column of the __"cancellation code"__ table to fill the new column.
-5. Transformed the column types in all the tables to the right column types.
-6. Re-ordered all the columns in the __flights__ table accordingly (done using the Power Query Editor).
-7. You can have a view of our final SQL query screenshot below:
+1. Made sure that all the data types of the tables in the dataset are of the right data type.
+2. I added a new column __"total_revenue"__ which was derived from multiplying the data in the __"price"__ column by the data in the __"quantity"__ column.
+3. I added a new column __"age_band"__ by extracting the data in the __"age"__ column and grouped them (Children, Teenager, Young Adult, Mid-aged Adult, and Old Adult) using the _"Update"_ and _"Set query"_.
+4. Duplicated the __"invoice_date"__ column into 2 columns, renamed the 2 columns to __"new_invoice_date1"__ and __"new_invoice_date2"__.
+5. Splitted the __"new_invoice_date1"__ and extracted only the _"Year"_ using the substring and charindex query, added a new column __"invoice_year"__ with an int data type and extracted the __"new_invoice_data1"__ column dat into it, dropped the __"new_invoice_data1"__ column from the table.
+6. Splitted the __"new_invoice_date2"__ and extracted only the _"Month"_ using the substring and charindex query, added a new column __"invoice_month"__ with an int data type and extracted the __"new_invoice_data2"__ column dat into it, dropped the __"new_invoice_data2"__ column from the table.
+7. Created a new column __"invoice_month_name"__ which extracts the month values from the __"invoice_month"__ column and group them into: _January - December_, dropped the __"invoice_month"__ column, renamed the __"invoice_month_name"__ column to __"invoice_month"__.
+
+- You can have a view of our final SQL query screenshot below:
 <br />
 
 Sql Query Screenshot                                                                         |                                
