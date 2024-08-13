@@ -65,7 +65,7 @@ This dataset was provided by [Quantum Analytics](https://www.quantumanalyticsco.
 1. MS SQL Server
     - Was used to:
         1. Cleaning
-        3. Transform the dataset for this analysis.
+        2. Transform the dataset for this analysis.
            
 2. Power BI (Was used to create reports and dashboard for this analysis)
     - The following Power BI Features were incorporated:
@@ -79,7 +79,7 @@ This dataset was provided by [Quantum Analytics](https://www.quantumanalyticsco.
         8. Button
 <br />
 
-### ETL Processes using MS SQL Server:
+### Data Cleaning, Transformation and Loading using MS Sql Query:
 1. Added a new column __"Month_New"__ from the __"Month"__ column in __flights__ table to display the names of the month (January - December) using the "If function".
 2. Added another column __"Day_of_Week_New"__ from the __"Day_of_Week"__ column in the __flights__ table to display the days of the week (Sunday - Saturday) using the "If function".
 3. Created a new column __"Merged_Date"__ in the __flight__ table which comprises of the the __"Year"__, __"Month"__ and __"Day_of_Week"__ columns merged together to have a complete date view.
