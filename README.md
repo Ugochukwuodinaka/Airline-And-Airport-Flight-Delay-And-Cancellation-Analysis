@@ -93,7 +93,7 @@ Sql Query Screenshot                                                            
 :---------------------------------------------------------------------------------:|
 ![](images/MS_Sql_Server_Screenshot.png)   
 
-You can preview the full MS SQL Server query [here](Airline_%26_Airport_Flight_Delay_%26_Cancellation_Project.sql)
+You can preview the full MS SQL Server query [here](Airport_Flight_Delay_%2526_Cancellation_Project.sql.sql)
 <br />
 <br />
 
