@@ -111,7 +111,7 @@ You can preview the full MS SQL Server query [here](Airport_Flight_Delay_%2526_C
 ## Visuals in Power BI:
 The report comprises of 2 pages
 <br />
-### Flights Stats
+### Flight Stats
 ![](images/Airline_%26_Airport_Flight_Delays_%26_Cancellation_Analysis_Dashboard_1.jpg)
 <br />
 <br />
