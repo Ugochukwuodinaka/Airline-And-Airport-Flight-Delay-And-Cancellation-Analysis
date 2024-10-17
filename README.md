@@ -109,7 +109,7 @@ You can preview the full MS SQL Server query [here](Airport_Flight_Delay_%2526_C
 <br />
 
 ## Visuals in Power BI:
-The report comprises of 2 pages
+The Analysis project Dashboard
 <br />
 ### Flight Stats
 ![](images/Airline_%26_Airport_Flight_Delays_%26_Cancellation_Analysis_Dashboard_1.jpg)
@@ -218,8 +218,8 @@ National Air System issues contribute to 17.52% of cancellations. They affect 25
 <br />
 <br />
 
-## Interact With Power BI Dashboard Report
-You can interact with this report [here](https://app.powerbi.com/view?r=eyJrIjoiNzc2ZTdkMDktYWQxOC00ZDBmLWEwM2QtYTEyYjQ2ZTc2ZmJhIiwidCI6IjdlYzI5NjU5LTNjZjItNGYzZi1hYmIzLWE3MjJlZGY3ZmYyZCJ9).This dashboard report displays clearly an interactive visual of this analysis in power BI.
+## Interact With Power BI Dashboard
+You can interact with this dashboard [here](https://app.powerbi.com/view?r=eyJrIjoiNzc2ZTdkMDktYWQxOC00ZDBmLWEwM2QtYTEyYjQ2ZTc2ZmJhIiwidCI6IjdlYzI5NjU5LTNjZjItNGYzZi1hYmIzLWE3MjJlZGY3ZmYyZCJ9).This dashboard report displays clearly an interactive visual of this analysis in power BI.
 <br />
 <br />
 <br />
